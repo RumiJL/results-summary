@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  hsl(252, 65%, 83%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    
+}
+
+
+.card{
+    display: flex;
+    width:200px;
+    height:880px;
+    padding: 20px 10px;
+    margin: 30px auto;
+    
+    
+
+
+}
+
+.card-blue{
+    background-color:hsl(222, 82%, 55%);
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+  .card-white {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+  
+    
+  }
+
+  .card-content {
+    padding: 10px;
+
+  }
+
+  .texto1{
+    color:hsl(221, 100%, 96%);
+    font-size:18px;
+    padding: 50px;
+    align-content: center;
+    
+    
+  }
+
+    
+        
+        .number{
+            font-size: 55px;
+            padding: 50px;
+            
+        }
+
+
+  
+
+  .texto2{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    padding: 30px;
+    
+    
+  }
+
+  .texto3{
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+.texto4{
+    font-size: 15px;
+    color:blue;
+    
+    
+
+}
+
+.opciones{
+    margin-top: 15px;
+    
+}
+
+.opcion1{
+    color:red;
+}
+
+.opcion2{
+    color:rgb(237, 237, 26)
+}
+
+.opcion3{
+    color:green;
+}
+
+.opcion4{
+    color:rgb(81, 81, 177)
+}
+.card__btn{
+    
+        background-color: rgb(53, 13, 174);
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+        padding:5px 25px;
+        font-weight: bold;
+        border-radius: 20px;
+        
+        
+    }
+
+
+    @media (max-width: 768px) {
+        .card{
+          width: 80%; 
+          
+        }
+      }
+      
+      
+     
+
+      
+        .boton {
+          padding: 40px;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: #fff;
+          font-size: 20px;
+          cursor: pointer;
+          margin: 0 auto;
+        
+        }
+      
+      
